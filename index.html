@@ -1,0 +1,490 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>La Gran Asunción | Música Oficial</title>
+  <meta name="description" content="La Gran Asunción — Grupo musical boliviano. Videoclips, música, conciertos y contacto oficial.">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@700;900&family=DM+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<!-- NAVBAR -->
+<nav id="navbar">
+  <div class="container">
+    <div class="navbar-inner">
+      <a href="#" class="logo-wrap">
+        <div class="logo-icon">A</div>
+        <div class="logo-text">
+          <span class="logo-name">La Gran Asunción</span>
+          <span class="logo-sub" id="heroSubtitle">Grupo Musical Boliviano</span>
+        </div>
+      </a>
+
+      <div class="country-toggle">
+        <button class="country-btn active" data-country="bolivia">🇧🇴 Bolivia</button>
+        <button class="country-btn" data-country="paraguay">🇵🇾 Paraguay</button>
+      </div>
+
+      <nav class="nav-links">
+        <a href="#videos">Videos</a>
+        <a href="#musica">Música</a>
+        <a href="#conciertos">Conciertos</a>
+        <a href="#integrantes">El Grupo</a>
+        <a href="#contacto">Contacto</a>
+      </nav>
+
+      <button class="menu-btn" id="menuBtn" aria-label="Menú">
+        <i class="fas fa-bars"></i>
+      </button>
+    </div>
+
+    <nav class="mobile-nav" id="mobileNav">
+      <a href="#videos">Videos</a>
+      <a href="#musica">Música</a>
+      <a href="#conciertos">Conciertos</a>
+      <a href="#integrantes">El Grupo</a>
+      <a href="#contacto">Contacto</a>
+    </nav>
+  </div>
+</nav>
+
+
+<!-- HERO -->
+<section id="hero">
+  <div class="hero-bg-glow"></div>
+  <div class="hero-particles" id="heroParticles"></div>
+  <div class="container">
+    <div class="hero-content">
+
+      <div class="hero-text">
+        <div class="hero-eyebrow">
+          <span class="hero-eyebrow-line"></span>
+          <span class="hero-eyebrow-text">Grupo Musical Boliviano</span>
+        </div>
+
+        <h1 class="hero-title">
+          <span class="highlight">La Gran</span><br>Asunción
+        </h1>
+
+        <p class="hero-description" id="heroDesc">
+          Desde Bolivia para el mundo — la fusión perfecta de cumbia y folklore boliviano con energía única que electriza cada escenario.
+        </p>
+
+        <div class="hero-cta-row">
+          <a href="#musica" class="btn-primary">
+            <i class="fas fa-headphones"></i> Escuchar ahora
+          </a>
+          <a href="#videos" class="btn-outline">
+            <i class="fab fa-youtube"></i> Ver videos
+          </a>
+        </div>
+      </div>
+
+      <div class="hero-image-wrap">
+        <div class="hero-glow-ring"></div>
+        <div class="hero-image-frame">
+          <!--
+            INSTRUCCIÓN: Reemplaza con:
+            <img src="foto-grupo.jpg" alt="La Gran Asunción">
+          -->
+          <div class="hero-image-placeholder">
+            <i class="fas fa-compact-disc"></i>
+            <strong>Foto del Grupo</strong>
+            <span>Reemplaza este bloque con<br>&lt;img src="foto-grupo.jpg"&gt;</span>
+          </div>
+        </div>
+        <span class="hero-badge">🎵 Nueva música 2025</span>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+<!-- VIDEOS -->
+<section id="videos">
+  <div class="container">
+
+    <div class="videos-section-header">
+      <div>
+        <p class="section-label">YouTube</p>
+        <h2 class="section-title">Videoclips Oficiales</h2>
+        <div class="section-divider"></div>
+      </div>
+      <a href="https://www.youtube.com/@lagranasuncion" target="_blank" rel="noopener" class="ver-todos-btn">
+        Ver todos <i class="fas fa-arrow-right"></i>
+      </a>
+    </div>
+
+    <!-- Layout: 1 featured + 2 medianos -->
+    <div class="videos-layout">
+
+      <div class="video-card-featured reveal" data-vid="vARRX2tHaiU">
+        <div class="video-thumb-wrap">
+          <img src="" alt="Baila Conmigo">
+          <div class="play-overlay">
+            <div class="play-btn-circle"><i class="fas fa-play"></i></div>
+          </div>
+        </div>
+        <div class="video-iframe-wrap"></div>
+        <div class="video-meta">
+          <h3>Baila Conmigo</h3>
+          <p>Video oficial · 2M de reproducciones</p>
+          <span class="video-badge">⭐ Destacado</span>
+        </div>
+      </div>
+
+      <div class="video-card-sm reveal" data-vid="9WtqWWZVFOM">
+        <div class="video-thumb-wrap">
+          <img src="" alt="En Vivo">
+          <div class="play-overlay">
+            <div class="play-btn-circle"><i class="fas fa-play"></i></div>
+          </div>
+        </div>
+        <div class="video-iframe-wrap"></div>
+        <div class="video-meta video-meta-sm">
+          <h3>En Vivo desde el Teatro</h3>
+          <p>Concierto completo · La Paz, Bolivia</p>
+        </div>
+      </div>
+
+      <div class="video-card-sm reveal" data-vid="6toR4Ue53xQ">
+        <div class="video-thumb-wrap">
+          <img src="" alt="Te Prometo el Cielo">
+          <div class="play-overlay">
+            <div class="play-btn-circle"><i class="fas fa-play"></i></div>
+          </div>
+        </div>
+        <div class="video-iframe-wrap"></div>
+        <div class="video-meta video-meta-sm">
+          <h3>Te Prometo el Cielo</h3>
+          <p>Lyric video · Canción del año</p>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- Fila scrolleable de más videos -->
+    <div class="videos-row-title">
+      <span>Más videos</span>
+    </div>
+
+    <div class="videos-scroll-row">
+
+      <div class="video-card-mini" data-vid="vARRX2tHaiU">
+        <div class="video-thumb-wrap">
+          <img src="" alt="Video 4">
+          <div class="play-overlay">
+            <div class="play-btn-circle"><i class="fas fa-play"></i></div>
+          </div>
+        </div>
+        <div class="video-iframe-wrap"></div>
+        <div class="video-meta">
+          <h3>Cumbia Boliviana</h3>
+          <p>Video oficial</p>
+        </div>
+      </div>
+
+      <div class="video-card-mini" data-vid="9WtqWWZVFOM">
+        <div class="video-thumb-wrap">
+          <img src="" alt="Video 5">
+          <div class="play-overlay">
+            <div class="play-btn-circle"><i class="fas fa-play"></i></div>
+          </div>
+        </div>
+        <div class="video-iframe-wrap"></div>
+        <div class="video-meta">
+          <h3>Noche de Estrellas</h3>
+          <p>Video en vivo</p>
+        </div>
+      </div>
+
+      <div class="video-card-mini" data-vid="6toR4Ue53xQ">
+        <div class="video-thumb-wrap">
+          <img src="" alt="Video 6">
+          <div class="play-overlay">
+            <div class="play-btn-circle"><i class="fas fa-play"></i></div>
+          </div>
+        </div>
+        <div class="video-iframe-wrap"></div>
+        <div class="video-meta">
+          <h3>Sigo Aquí</h3>
+          <p>Lyric video</p>
+        </div>
+      </div>
+
+      <div class="video-card-mini" data-vid="vARRX2tHaiU">
+        <div class="video-thumb-wrap">
+          <img src="" alt="Video 7">
+          <div class="play-overlay">
+            <div class="play-btn-circle"><i class="fas fa-play"></i></div>
+          </div>
+        </div>
+        <div class="video-iframe-wrap"></div>
+        <div class="video-meta">
+          <h3>Amor Sin Fronteras</h3>
+          <p>Video oficial</p>
+        </div>
+      </div>
+
+      <div class="video-card-mini" data-vid="9WtqWWZVFOM">
+        <div class="video-thumb-wrap">
+          <img src="" alt="Video 8">
+          <div class="play-overlay">
+            <div class="play-btn-circle"><i class="fas fa-play"></i></div>
+          </div>
+        </div>
+        <div class="video-iframe-wrap"></div>
+        <div class="video-meta">
+          <h3>Bolivia en el Alma</h3>
+          <p>Video en vivo</p>
+        </div>
+      </div>
+
+    </div>
+
+  </div>
+</section>
+
+
+<!-- MÚSICA — PLAYER SPOTIFY -->
+<section id="musica">
+  <div class="container">
+
+    <div class="section-header">
+      <div>
+        <p class="section-label">Reproducción</p>
+        <h2 class="section-title">Escucha Ahora</h2>
+        <div class="section-divider"></div>
+      </div>
+    </div>
+
+    <div class="spotify-player reveal">
+
+      <div class="sp-header">
+        <div class="sp-brand">
+          <i class="fab fa-spotify"></i>
+          La Gran Asunción · Player Oficial
+        </div>
+        <div class="sp-status">Reproduciendo</div>
+      </div>
+
+      <div class="sp-body">
+
+        <!-- Panel izquierdo: portada -->
+        <div class="sp-cover-panel">
+          <div class="sp-cover" id="spCover">
+            <div class="sp-cover-bg"></div>
+            <div class="sp-cover-glow"></div>
+            <i class="fas fa-compact-disc" id="spCoverIcon"></i>
+          </div>
+          <div class="sp-track-info">
+            <div class="sp-track-name" id="spTrackName">Cumbia Boliviana</div>
+            <div class="sp-track-artist" id="spTrackArtist">La Gran Asunción</div>
+            <button class="sp-heart" id="spHeart" title="Me gusta">
+              <i class="far fa-heart"></i>
+            </button>
+          </div>
+        </div>
+
+        <!-- Panel derecho: controles -->
+        <div class="sp-controls-panel">
+          <div class="sp-controls">
+
+            <div class="sp-btns">
+              <button class="sp-btn" id="spShuffle" title="Aleatorio"><i class="fas fa-shuffle"></i></button>
+              <button class="sp-btn" id="spPrev" title="Anterior"><i class="fas fa-backward-step"></i></button>
+              <button class="sp-btn-play" id="spPlay" title="Reproducir/Pausar">
+                <i class="fas fa-play" id="spPlayIcon"></i>
+              </button>
+              <button class="sp-btn" id="spNext" title="Siguiente"><i class="fas fa-forward-step"></i></button>
+              <button class="sp-btn" id="spRepeat" title="Repetir"><i class="fas fa-repeat"></i></button>
+            </div>
+
+            <div class="sp-progress">
+              <div class="sp-bar" id="spBar">
+                <div class="sp-fill" id="spFill"></div>
+              </div>
+              <div class="sp-times">
+                <span id="spCurrentTime">0:00</span>
+                <span id="spDuration">0:00</span>
+              </div>
+            </div>
+
+            <div class="sp-volume">
+              <button class="sp-vol-btn" id="spVolBtn"><i class="fas fa-volume-up"></i></button>
+              <input type="range" class="sp-vol-slider" id="spVolSlider" min="0" max="1" step="0.02" value="0.7">
+            </div>
+
+          </div>
+        </div>
+
+      </div>
+
+      <!-- Playlist tipo Spotify -->
+      <div class="sp-playlist">
+        <div class="sp-playlist-title">Lista de reproducción</div>
+        <div class="sp-tracks" id="spTracks"></div>
+      </div>
+
+    </div>
+
+    <audio id="audioPlayer" preload="metadata"></audio>
+
+  </div>
+</section>
+
+
+<!-- CONCIERTOS -->
+<section id="conciertos">
+  <div class="container">
+    <div class="section-header">
+      <div>
+        <p class="section-label">Agenda 2025</p>
+        <h2 class="section-title">Próximos Conciertos</h2>
+        <div class="section-divider"></div>
+      </div>
+    </div>
+    <div class="concerts-grid" id="concertsGrid"></div>
+  </div>
+</section>
+
+
+<!-- INTEGRANTES -->
+<section id="integrantes">
+  <div class="container">
+    <div class="section-header">
+      <div>
+        <p class="section-label">La familia</p>
+        <h2 class="section-title">El Grupo</h2>
+        <div class="section-divider"></div>
+      </div>
+    </div>
+
+    <div class="members-grid">
+      <div class="member-card reveal">
+        <div class="member-avatar-wrap">
+          <img class="member-avatar" src="https://randomuser.me/api/portraits/men/21.jpg" alt="Diego">
+          <div class="member-role-badge"><i class="fas fa-microphone"></i></div>
+        </div>
+        <div class="member-name">Diego "El Dorado"</div>
+        <div class="member-role">Voz principal</div>
+      </div>
+      <div class="member-card reveal">
+        <div class="member-avatar-wrap">
+          <img class="member-avatar" src="https://randomuser.me/api/portraits/women/45.jpg" alt="Camila">
+          <div class="member-role-badge"><i class="fas fa-drum"></i></div>
+        </div>
+        <div class="member-name">Camila Rivarola</div>
+        <div class="member-role">Percusión & Coros</div>
+      </div>
+      <div class="member-card reveal">
+        <div class="member-avatar-wrap">
+          <img class="member-avatar" src="https://randomuser.me/api/portraits/men/55.jpg" alt="Lucas">
+          <div class="member-role-badge"><i class="fas fa-keyboard"></i></div>
+        </div>
+        <div class="member-name">Lucas Benítez</div>
+        <div class="member-role">Teclados & Producción</div>
+      </div>
+      <div class="member-card reveal">
+        <div class="member-avatar-wrap">
+          <img class="member-avatar" src="https://randomuser.me/api/portraits/men/84.jpg" alt="Martín">
+          <div class="member-role-badge"><i class="fas fa-guitar"></i></div>
+        </div>
+        <div class="member-name">Martín Ayala</div>
+        <div class="member-role">Bajo & Dirección musical</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!-- CONTACTO -->
+<section id="contacto">
+  <div class="container">
+    <div class="section-header">
+      <div>
+        <p class="section-label">Escríbenos</p>
+        <h2 class="section-title">Contacto</h2>
+        <div class="section-divider"></div>
+      </div>
+    </div>
+
+    <div class="contact-grid">
+      <div class="contact-info-block reveal">
+        <h3>Estemos en contacto</h3>
+        <div class="contact-detail">
+          <div class="contact-icon"><i class="fas fa-map-marker-alt"></i></div>
+          <span id="locationText">La Paz / Cochabamba · Bolivia</span>
+        </div>
+        <div class="contact-detail">
+          <div class="contact-icon"><i class="fas fa-phone"></i></div>
+          <span>+591 712 34567</span>
+        </div>
+        <div class="contact-detail">
+          <div class="contact-icon"><i class="fas fa-envelope"></i></div>
+          <span>contacto@lagranasuncion.bo</span>
+        </div>
+        <div class="contact-detail">
+          <div class="contact-icon"><i class="fas fa-briefcase"></i></div>
+          <span>Booking: prensa@lagranasuncion.bo</span>
+        </div>
+        <div class="social-row">
+          <a class="social-btn" href="https://www.facebook.com/andytrujillotrujillo2018" target="_blank" rel="noopener" title="Facebook"><i class="fab fa-facebook-f"></i></a>
+          <a class="social-btn" href="#" title="Instagram"><i class="fab fa-instagram"></i></a>
+          <a class="social-btn" href="#" title="TikTok"><i class="fab fa-tiktok"></i></a>
+          <a class="social-btn" href="#" title="YouTube"><i class="fab fa-youtube"></i></a>
+          <a class="social-btn" href="#" title="Spotify"><i class="fab fa-spotify"></i></a>
+        </div>
+      </div>
+
+      <div class="contact-form-wrap reveal">
+        <div class="form-row">
+          <div class="form-group">
+            <label for="contactName">Nombre</label>
+            <input class="form-input" type="text" id="contactName" placeholder="Tu nombre completo">
+          </div>
+          <div class="form-group">
+            <label for="contactEmail">Correo</label>
+            <input class="form-input" type="email" id="contactEmail" placeholder="correo@ejemplo.com">
+          </div>
+        </div>
+        <div class="form-group">
+          <label for="contactMsg">Mensaje</label>
+          <textarea class="form-input" id="contactMsg" rows="4" placeholder="¿Consultas sobre contrataciones, conciertos o simplemente quieres saludar?"></textarea>
+        </div>
+        <button class="btn-primary form-submit" id="sendMsgBtn">
+          <i class="fas fa-paper-plane"></i> Enviar mensaje
+        </button>
+        <p class="form-feedback" id="formFeedback"></p>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!-- FOOTER -->
+<footer>
+  <div class="container">
+    <div class="footer-inner">
+      <p class="footer-copy">
+        &copy; 2025 <span>La Gran Asunción</span> · Todos los derechos reservados
+      </p>
+      <nav class="footer-links">
+        <a href="#videos">Videos</a>
+        <a href="#musica">Música</a>
+        <a href="#contacto">Contacto</a>
+      </nav>
+    </div>
+  </div>
+</footer>
+
+<script src="main.js"></script>
+</body>
+</html>
